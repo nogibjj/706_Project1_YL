@@ -10,15 +10,23 @@
 
 This repository includes the main tasks for Project 1:
 
+# 706_Week03_YL
+
+This repository includes the main tasks for week 3-Polar Descriptive Statistics:
+
+* `Makefile` is a configuration file used in Unix-based systems for automating tasks and building software. It contains instructions and dependencies for compiling code, running tests, and other development tasks.
+* `.devcontainer` includes a Dockerfile and `devcontainer.json`. The `Dockerfile` within this folder specifies how the container should be built, and other settings in this directory may control development environment configurations.
+* `Workflows` includes GitHub Actions, which contain configuration files for setting up automated build, test, and deployment pipelines for your project.
+* `.gitignore` is used to specify which files or directories should be excluded from version control when using Git.
+* `README.md` is the instruction file for the readers.
+* `main.py` is a Python file that contains the main function for summary statistics and visualization for the chosen dataset `nba-teams-2017.csv`.
+* `test_main.py`  is a test file for `main.py` that can successfully run in IDEs.
+* `requirements.txt` is to specify the dependencies (libraries and packages) required to run the project.
 * Jupyter Notebook 
-* A Makefile (run tests/format/lint/install)
-* A Dockerfile
-* GitHub actions
-* Scripts and visualizations calculating the descriptive statistics of the chosen dataset `wine.csv`
+* Scripts and visualizations calculating the descriptive statistics of the chosen dataset `nba-teams-2017.csv`
 * `lib.py` sharing common code between the Python script and Jupyter Notebook
 * `test_script.py`
 * `test_lib.py`
-* `requirements.txt`
 
 ## Project description
 
@@ -32,6 +40,7 @@ The project adapts from the project template from Week 01, and add Pandas script
 
 * Use codespace for scripting
 * Container built in `devcontainers` and virtual environment activated via `requirements.txt`
+* To run the code, use the command `python lib.py` in the terminal
 
 ## Check format & errors
 
