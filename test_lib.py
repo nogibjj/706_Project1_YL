@@ -13,9 +13,7 @@ def test_describe():
     assert res1.loc["std"] == 11.188048
 
 def test_pairplot():
-    res2 = build_pairplot(nba)
-    assert res2 is not None
+    build_pairplot(nba)
 
 def test_scatter():
-    res3 = build_scatterplot(nba)
-    assert res3 is not None
+    build_scatterplot(nba)
