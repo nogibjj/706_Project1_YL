@@ -1,9 +1,15 @@
+
+# data science
 pandas==2.1.0
 matplotlib
 seaborn
 
+# devops
 pylint
 pytest
 click
 black
 pytest-cov
+boto3
+ruff
+nbval # nbval plugin for pytest
