@@ -13,5 +13,7 @@ click
 black
 pytest-cov
 boto3
-ruff
+# required for this project
+ruff # lint code
 nbval # nbval plugin for pytest
+nbqa
