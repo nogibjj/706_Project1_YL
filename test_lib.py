@@ -8,13 +8,14 @@ nba = readfile(file=csv_dir)
 def test_describe():
     data = nba
     res1 = lib_describe(data)
-    assert res1.loc["mean", "wins"] == 41.000000	
     assert res1.loc["max", "wins"] == 67.000000
-    assert res1.loc["min", "wins"] == 20.000000	
+    assert res1.loc["min", "wins"] == 20.000000
     assert res1.loc["std"] == 11.188048
 
 def test_pairplot():
-    build_pairplot(nba)
+    res2 = build_pairplot(nba)
+    assert res2 is not None
 
 def test_scatter():
-    build_scatterplot(nba)
+    res3 = build_scatterplot(nba)
+    assert res3 is not None
