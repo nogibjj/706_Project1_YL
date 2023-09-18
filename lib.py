@@ -26,5 +26,5 @@ def build_scatterplot(df):
     ax.plot(xseq, b+a*xseq, color="k", lw=2.5)
     ax.set_xlabel("Wins")
     ax.set_ylabel("Points")
-    plt.show()
+    fig.show()
     return
