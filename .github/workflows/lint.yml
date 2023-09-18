@@ -8,6 +8,6 @@ jobs:
     - name: Install dependencies
       run: |
         make install
-    - name: Lint with Ruff
+    - name: Lint
       run: |
         make lint
