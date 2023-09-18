@@ -22,7 +22,7 @@ This repository includes the main tasks for Project 1:
 
 ## Project description
 
-The project adapts from the project template from Week 01, and add Pandas scripts to output the summary statistics and visualizations of certain features within a given dataset. I used the `wine.csv` dataset, a dataset describing the quality of red Bordeaux wine from 1952 to 1980.
+The project adapts from the project template from Week 01, and add Pandas scripts to output the summary statistics and visualizations of certain features within a given dataset. I used the `nba-teams-2017.csv` dataset, a dataset describing the wins, losses and game statistics for all the NBA teams during the 2016-17 Regular Season.
 
 * I calculated the summary statistics (mean/median/standard deviation) of the column `Price`, the log price of red wine.
 
