@@ -44,3 +44,7 @@ The project adapts from the project template from Week 01, and add Pandas script
 ## Summary statistics
 
 See `report.md` for details.
+
+## Video Explanation
+
+Link: 
