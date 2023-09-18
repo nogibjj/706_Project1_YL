@@ -1,6 +1,7 @@
 
 # data science
 pandas==2.1.0
+numpy
 matplotlib
 seaborn
 scikit-learn
