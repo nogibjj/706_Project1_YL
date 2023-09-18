@@ -1,5 +1,5 @@
+# import pandas as pd
 from lib import readfile, lib_describe, build_pairplot, build_scatterplot
-import pandas as pd
 
 csv_dir = "nba-teams-2017.csv"
 
