@@ -1,4 +1,11 @@
-[![CICD](https://github.com/nogibjj/706_Week02_YL/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/706_Week02_YL/actions/workflows/cicd.yml)
+[![Format](https://github.com/nogibjj/706_Project1_YL/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/706_Project1_YL/actions/workflows/format.yml)
+
+[![Install](https://github.com/nogibjj/706_Project1_YL/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/706_Project1_YL/actions/workflows/install.yml)
+
+[![Lint](https://github.com/nogibjj/706_Project1_YL/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/706_Project1_YL/actions/workflows/lint.yml)
+
+[![Test](https://github.com/nogibjj/706_Project1_YL/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/706_Project1_YL/actions/workflows/test.yml)
+
 # 706_Project_YL
 
 This repository includes the main tasks for Project 1:
