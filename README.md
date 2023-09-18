@@ -1,12 +1,17 @@
 [![CICD](https://github.com/nogibjj/706_Week02_YL/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/706_Week02_YL/actions/workflows/cicd.yml)
-# 706_Week02_YL
+# 706_Project_YL
 
-This repository includes the main tasks for week 2-Pandas Descriptive Statistics:
+This repository includes the main tasks for Project 1:
 
-* A Makefile
+* Jupyter Notebook 
+* A Makefile (run tests/format/lint/install)
 * A Dockerfile
 * GitHub actions
 * Scripts and visualizations calculating the descriptive statistics of the chosen dataset `wine.csv`
+* `lib.py` sharing common code between the Python script and Jupyter Notebook
+* `test_script.py`
+* `test_lib.py`
+* `requirements.txt`
 
 ## Project description
 
@@ -27,11 +32,7 @@ The project adapts from the project template from Week 01, and add Pandas script
 
 2. make lint
 
-![Alt text](image-2.png)
-
 3. make test
-
-![Alt text](image-3.png)
 
 ## Summary statistics
 
