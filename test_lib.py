@@ -1,5 +1,5 @@
 # import pandas as pd
-from lib import readfile, lib_describe, build_pairplot, build_scatterplot
+from lib import readfile, lib_describe, build_histogram, build_scatterplot
 
 csv_dir = "nba-teams-2017.csv"
 
@@ -10,8 +10,8 @@ def test_describe():
     lib_describe(data)
 
 
-def test_pairplot():
-    build_pairplot(nba)
+def test_histogram():
+    build_histogram(nba)
 
 def test_scatter():
     build_scatterplot(nba)

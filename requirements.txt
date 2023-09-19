@@ -1,10 +1,12 @@
 
 # data science
+jupyter
 pandas==2.1.0
 numpy
 matplotlib
 seaborn
 scikit-learn
+pyarrow
 
 # devops
 pylint
@@ -13,7 +15,11 @@ click
 black
 pytest-cov
 boto3
+
 # required for this project
 ruff # lint code
 nbval # nbval plugin for pytest
 nbqa
+
+# others
+tabulate
