@@ -6,13 +6,9 @@
 
 [![Test](https://github.com/nogibjj/706_Project1_YL/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/706_Project1_YL/actions/workflows/test.yml)
 
-# 706_Project_YL
+# 706_Project1_YL
 
-This repository includes the main tasks for Project 1:
-
-# 706_Week03_YL
-
-This repository includes the main tasks for week 3-Polar Descriptive Statistics:
+This repository includes the main tasks for Project 1-Continuous Integration:
 
 * `Makefile` is a configuration file used in Unix-based systems for automating tasks and building software. It contains instructions and dependencies for compiling code, running tests, and other development tasks.
 * `.devcontainer` includes a Dockerfile and `devcontainer.json`. The `Dockerfile` within this folder specifies how the container should be built, and other settings in this directory may control development environment configurations.
@@ -53,6 +49,8 @@ The project adapts from the project template from Week 01, and add Pandas script
 ## Summary statistics
 
 See `report.md` for details.
+
+This is the generated report for summary statistics and visualization for [nba-teams-2017.csv](https://github.com/nogibjj/706_Project1_YL/blob/main/nba-teams-2017.csv).
 
 ## Video Explanation
 

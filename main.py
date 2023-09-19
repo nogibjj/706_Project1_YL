@@ -17,15 +17,11 @@ if __name__ == "__main__":
     run_histogram(nba)
 
     string = f'''
-    # This is the generated report for summary statistics and visualization for [nba-teams-2017.csv](https://github.com/nogibjj/706_Project1_YL/blob/main/nba-teams-2017.csv).
     ## Descriptive statistics 
-
     {summary.to_markdown()} 
-
-    ## Here are some plots to visualize relations between the important variables described in README. 
-    ### Histogram for Cumulative Points for all the teams during the season 
+    ### Histogram for Cumulative Points
      ![Alt text](figures/points_hist.png) 
-     ### Scatterplot for number of games won versus cumulative points for all teams during the season 
+     ### Scatterplot for games won versus cumulative points 
      ![Alt text](figures/scatter.png)
     '''
 
