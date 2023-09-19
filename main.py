@@ -16,12 +16,9 @@ if __name__ == "__main__":
     run_scatter(nba)
     run_histogram(nba)
 
-    string = f'''
-    ## Descriptive statistics 
+    string = f''' 
     {summary.to_markdown()} 
-    ### Histogram for Cumulative Points
      ![Alt text](figures/points_hist.png) 
-     ### Scatterplot for games won versus cumulative points 
      ![Alt text](figures/scatter.png)
     '''
 
