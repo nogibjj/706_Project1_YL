@@ -17,8 +17,8 @@ if __name__ == "__main__":
     run_histogram(nba)
 
     str1 = f'{summary.to_markdown()}'
-    str2 = f'![Alt text](figures/points_hist.png)'
-    str3 = f'![Alt text](figures/scatter.png)'
+    str2 = '![Alt text](figures/points_hist.png)'
+    str3 = '![Alt text](figures/scatter.png)'
 
     file_path = "./report.md"
 
