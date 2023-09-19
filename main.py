@@ -16,13 +16,11 @@ if __name__ == "__main__":
     run_scatter(nba)
     run_histogram(nba)
 
-    string = f''' 
-    {summary.to_markdown()} 
-     ![Alt text](figures/points_hist.png) 
-     ![Alt text](figures/scatter.png)
-    '''
+    str1 = f'''{summary.to_markdown()}'''
+    str2 = f'''![Alt text](figures/points_hist.png)'''
+    str3 = f'''![Alt text](figures/scatter.png)'''
 
     file_path = "./report.md"
 
     with open(file_path, "w", encoding="utf-8") as f:
-        f.write(string)
+        f.write(str1+str2+str3)
