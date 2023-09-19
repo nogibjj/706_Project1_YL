@@ -1,9 +1,4 @@
-
-# This is the generated report for summary statistics and visualization for [nba-teams-2017.csv](https://github.com/nogibjj/706_Project1_YL/blob/main/nba-teams-2017.csv).
-    
-## Descriptive statistics 
-
-    |       |   games_played |   wins |   losses |   win_prop |   minutes |   points |   field_goals |   field_goals_attempted |   field_goals_prop |   points3 |   points3_attempted |   points3_prop |   free_throws |   free_throws_att |   free_throws_prop |   off_rebounds |   def_rebounds |   rebounds |   assists |   turnovers |    steals |   blocks |   block_fga |   personal_fouls |   personal_fouls_drawn |   plus_minus |
+|       |   games_played |   wins |   losses |   win_prop |   minutes |   points |   field_goals |   field_goals_attempted |   field_goals_prop |   points3 |   points3_attempted |   points3_prop |   free_throws |   free_throws_att |   free_throws_prop |   off_rebounds |   def_rebounds |   rebounds |   assists |   turnovers |    steals |   blocks |   block_fga |   personal_fouls |   personal_fouls_drawn |   plus_minus |
 |:------|---------------:|-------:|---------:|-----------:|----------:|---------:|--------------:|------------------------:|-------------------:|----------:|--------------------:|---------------:|--------------:|------------------:|-------------------:|---------------:|---------------:|-----------:|----------:|------------:|----------:|---------:|------------:|-----------------:|-----------------------:|-------------:|
 | count |             30 | 30     |   30     |  30        | 30        |  30      |      30       |                30       |           30       |  30       |            30       |       30       |      30       |          30       |           30       |        30      |       30       |   30       |  30       |    30       | 30        | 30       |   30        |         30       |               30       | 30           |
 | mean  |             82 | 41     |   41     |   0.499967 | 48.3167   | 105.59   |      39.05    |                85.4167  |           45.72    |   9.65    |            27.0033  |       35.7167  |      17.8333  |          23.11    |           77.18    |        10.1333 |       33.3767  |   43.52    |  22.6267  |    13.96    |  7.71     |  4.74    |    4.74667  |         19.8933  |               19.9067  |  2.07242e-16 |
@@ -12,11 +7,8 @@
 | 25%   |             82 | 32.25  |   31.5   |   0.393    | 48.2      | 102.975  |      38.15    |                84.4     |           44.75    |   8.65    |            24       |       34.225   |      17.025   |          22.1     |           74.85    |         9.025  |       32.675   |   42.825   |  21.125   |    13.3     |  7.125    |  4.125   |    4.375    |         18.875   |               19.325   | -2.7         |
 | 50%   |             82 | 41     |   41     |   0.5      | 48.3      | 105      |      39.25    |                85.35    |           45.45    |   9.3     |            26.1     |       35.6     |      17.95    |          23.05    |           77.55    |        10.05   |       33.4     |   43.6     |  22.5     |    13.75    |  7.8      |  4.8     |    4.95     |         20       |               19.85    |  0           |
 | 75%   |             82 | 50.5   |   49.75  |   0.616    | 48.4      | 107.85   |      39.575   |                87.1     |           46.675   |  10.375   |            28.75    |       37.2     |      19.075   |          24.2     |           79.4     |        11.05   |       34.325   |   44.375   |  23.775   |    14.95    |  8.2      |  5       |    5.2      |         20.775   |               20.4     |  2.4         |
-| max   |             82 | 67     |   62     |   0.817    | 48.6      | 115.9    |      43.1     |                88.8     |           49.5     |  14.4     |            40.3     |       39.1     |      20.4     |          26.5     |           81.5     |        12.2    |       35.1     |   46.6     |  30.4     |    16.7     |  9.6      |  6.8     |    5.6      |         24.8     |               22.4     | 11.6         | 
+| max   |             82 | 67     |   62     |   0.817    | 48.6      | 115.9    |      43.1     |                88.8     |           49.5     |  14.4     |            40.3     |       39.1     |      20.4     |          26.5     |           81.5     |        12.2    |       35.1     |   46.6     |  30.4     |    16.7     |  9.6      |  6.8     |    5.6      |         24.8     |               22.4     | 11.6         |
 
-## Here are some plots to visualize relations between the important variables described in README. 
-### Histogram for Cumulative Points for all the teams during the season 
-![Alt text](figures/points_hist.png) 
-### Scatterplot for number of games won versus cumulative points for all teams during the season 
+![Alt text](figures/points_hist.png)
+
 ![Alt text](figures/scatter.png)
-    
