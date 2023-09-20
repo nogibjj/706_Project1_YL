@@ -21,7 +21,7 @@ def build_histogram(df):
     ax.set_xlabel("Points")
     ax.set_ylabel("Frequency")
     fig.show()
-    fig.savefig("figures/points-hist.png")
+    plt.savefig("figures/points-hist.png")
     return
 
 
