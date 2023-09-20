@@ -7,6 +7,8 @@ def test_main():
     build_histogram(nba)
     build_scatterplot(nba)
 
-
-if __name__ == "__main__":
-    test_main()
+    assert "count" in lib_describe(nba)
+    assert "mean" in lib_describe(nba)
+    assert "std" in lib_describe(nba)
+    assert "min" in lib_describe(nba)
+    assert "max" in lib_describe(nba)
