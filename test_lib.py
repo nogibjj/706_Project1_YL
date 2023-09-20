@@ -16,8 +16,9 @@ def test_describe():
 
 
 def test_histogram():
-    readfile(csv_dir)
-
+    nba = readfile(csv_dir)
+    build_histogram(nba)
 
 def test_scatter():
-    readfile(csv_dir)
+    nba = readfile(csv_dir)
+    build_scatterplot(nba)
