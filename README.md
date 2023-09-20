@@ -85,4 +85,4 @@ See `report.md` for details.
 
 ## Video Explanation
 
-Link: 
+Link: https://warpwire.duke.edu/w/2eMHAA/
