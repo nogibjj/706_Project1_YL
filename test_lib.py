@@ -5,6 +5,7 @@ csv_dir = "nba-teams-2017.csv"
 
 nba = readfile(file=csv_dir)
 
+
 def test_describe():
     data = nba
     lib_describe(data)
@@ -12,6 +13,7 @@ def test_describe():
 
 def test_histogram():
     build_histogram(nba)
+
 
 def test_scatter():
     build_scatterplot(nba)

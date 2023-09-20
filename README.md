@@ -18,7 +18,7 @@ This repository includes the main tasks for Project 1-Continuous Integration:
 * `main.py` is a Python file that contains the main function for summary statistics and visualization for the chosen dataset `nba-teams-2017.csv`.
 * `test_main.py`  is a test file for `main.py` that can successfully run in IDEs.
 * `requirements.txt` is to specify the dependencies (libraries and packages) required to run the project.
-* Jupyter Notebook `summary.ipynb` outputs the descriptive statistics and visualizations using the shared library `lib.py`.
+* Jupyter Notebook `summary.ipynb` outputs the descriptive statistics and visualizations using the shared library `lib.py`, and demonstrates `nbval` plugin for `pytest`.
 * Scripts and visualizations calculating the descriptive statistics of the chosen dataset `nba-teams-2017.csv`
 * `lib.py` sharing common code between the Python script and Jupyter Notebook
 * `test_script.py`
@@ -44,7 +44,13 @@ The project adapts from the project template from Week 01, and add Pandas script
 
 2. make lint
 
+![Alt text](figures/lint.png)
+
 3. make test
+
+![Alt text](figures/test01.png)
+
+![Alt text](figures/test02.png)
 
 ## Summary statistics
 
