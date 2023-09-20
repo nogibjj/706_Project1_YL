@@ -28,9 +28,9 @@ This repository includes the main tasks for Project 1-Continuous Integration:
 
 The project adapts from the project template from Week 01, and add Pandas scripts to output the summary statistics and visualizations of certain features within a given dataset. I used the `nba-teams-2017.csv` dataset, a dataset describing the wins, losses and game statistics for all the NBA teams during the 2016-17 Regular Season.
 
-* I calculated the summary statistics (mean/median/standard deviation) of the column `Price`, the log price of red wine.
+* I calculated the summary statistics (mean/median/standard deviation/IQR) of the quantitative columns.
 
-* I created two visualizations: a histogram of log wine price; a pairplot of all the quantitative variables in the dataset.
+* I created two visualizations: a histogram of points gain by each team; a scatterplot of points versus number of games won.
 
 ## Project environment
 

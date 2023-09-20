@@ -1,3 +1,5 @@
+## Summary Statistics
+
 |       |   games_played |   wins |   losses |   win_prop |   minutes |   points |   field_goals |   field_goals_attempted |   field_goals_prop |   points3 |   points3_attempted |   points3_prop |   free_throws |   free_throws_att |   free_throws_prop |   off_rebounds |   def_rebounds |   rebounds |   assists |   turnovers |    steals |   blocks |   block_fga |   personal_fouls |   personal_fouls_drawn |   plus_minus |
 |:------|---------------:|-------:|---------:|-----------:|----------:|---------:|--------------:|------------------------:|-------------------:|----------:|--------------------:|---------------:|--------------:|------------------:|-------------------:|---------------:|---------------:|-----------:|----------:|------------:|----------:|---------:|------------:|-----------------:|-----------------------:|-------------:|
 | count |             30 | 30     |   30     |  30        | 30        |  30      |      30       |                30       |           30       |  30       |            30       |       30       |      30       |          30       |           30       |        30      |       30       |   30       |  30       |    30       | 30        | 30       |   30        |         30       |               30       | 30           |
@@ -9,6 +11,12 @@
 | 75%   |             82 | 50.5   |   49.75  |   0.616    | 48.4      | 107.85   |      39.575   |                87.1     |           46.675   |  10.375   |            28.75    |       37.2     |      19.075   |          24.2     |           79.4     |        11.05   |       34.325   |   44.375   |  23.775   |    14.95    |  8.2      |  5       |    5.2      |         20.775   |               20.4     |  2.4         |
 | max   |             82 | 67     |   62     |   0.817    | 48.6      | 115.9    |      43.1     |                88.8     |           49.5     |  14.4     |            40.3     |       39.1     |      20.4     |          26.5     |           81.5     |        12.2    |       35.1     |   46.6     |  30.4     |    16.7     |  9.6      |  6.8     |    5.6      |         24.8     |               22.4     | 11.6         |
 
+## Visualizations
+
+### Histogram of Points for all the teams during the season
+
 ![Alt text](figures/points_hist.png)
+
+### Scatterplot of number of games won versus points for all teams 
 
 ![Alt text](figures/scatter.png)
