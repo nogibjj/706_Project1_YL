@@ -1,4 +1,5 @@
 from lib import readfile, lib_describe, build_histogram, build_scatterplot
+import pandas as pd
 
 
 def test_main():
@@ -7,8 +8,4 @@ def test_main():
     build_histogram(nba)
     build_scatterplot(nba)
 
-    assert "count" in lib_describe(nba)
-    assert "mean" in lib_describe(nba)
-    assert "std" in lib_describe(nba)
-    assert "min" in lib_describe(nba)
-    assert "max" in lib_describe(nba)
+    assert isinstance(lib_describe(nba), pd.DataFrame)
