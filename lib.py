@@ -16,12 +16,12 @@ def lib_describe(df):
 
 # visualization 1
 def build_histogram(df):
-    plt.hist(df["points"], bins=35, edgecolor="k")
-    plt.xlabel("Points")
-    plt.ylabel("Frequency")
-    plt.title("Frequency distribution of Points across Teams")
-    plt.show()
-    plt.savefig("figures/points_hist.png")
+    fig, ax = plt.subplots(figsize=(12, 8))
+    ax.hist(df["points"], bins=35, edgecolor="k")
+    ax.set_xlabel("Points")
+    ax.set_ylabel("Frequency")
+    fig.show()
+    fig.savefig("figures/points-hist.png")
     return
 
 
